@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG">
+	<listeners>
+		<listener class-name="class4_2.TestNG_Listener2" />
+	</listeners>
+	
+	<test name="Regression1">
+		
+		
+    	
+         <classes>
+             <class name="class4_2.TestNG_Listener_TestCase2"/>
+          </classes>
+     </test>
+	
+	
+    <!-- <test name="Regression1">
+    	 <parameter name ="browser" value="chrome" />
+         <classes>
+             <class name="class4_2.TestNG_Parameter"/>
+          </classes>
+     </test>
+     
+     <test name="Regression2">
+    	 <parameter name ="browser" value="firefox" />
+         <classes>
+             <class name="class4_2.TestNG_Parameter"/>
+          </classes>
+     </test>
+     
+     
+     <test name="Regression3">
+    	 <parameter name ="browser" value="safari" />
+         <classes>
+             <class name="class4_2.TestNG_Parameter"/>
+          </classes>
+     </test>  -->
+      
+</suite> 
